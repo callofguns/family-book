@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Family Book</title>
+    </head>
+    <body>
+        <center>
+       <h1>My Family Book</h1>
+       <br>
+       <img src="20190503_122502.jpg" id="pic" width="300px" height="500px">
+       <br>
+       <p id="name"></p>
+       <br>
+        <button type="button" id="next" onclick="next()">next</button>
+        
+        <script>
+        var names = ["Shaan Patel","Dhruv Patel","Nisha Patel","Mehul Patel","Arvind Patel","Vidya Patel"]
+        function next() {
+            var Shaan = names[0];
+            var Dhruv = names[1];
+            var Nisha = names[2];
+            var Mehul = names[3];
+            var Arvind = names[4];
+            var Vidya = names[5];
+            var nameCount = 1;
+
+            if (nameCount = 1) {
+                document.getElementById("name").innerHTML = names[0];
+            }
+        }
+
+        </script>
+    </center>
+    </body>
+</html>''
